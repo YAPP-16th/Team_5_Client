@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@mui/styles'
 
 export const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +14,7 @@ export const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   appBar: {
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       position: 'fixed',
       right: 0,
     },
